@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="Sergey Pozhilov (GetTemplate.com)">
+
+    <title>Aroma</title>
+    <style>
+        body {
+            font-family: 'Open Sans', sans-serif;
+            background-color: #f8f9fa;
+            color: #333;
+        }
+        .navbar {
+            background-color: #3B5998; /* Base color */
+            border-radius: 0;
+            margin-bottom: 20px;
+        }
+        .navbar-header a{
+            text-decoration: none;
+            color: black !important;
+        }
+        .navbar a {
+            color: #fff;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+        .navbar a:hover {
+            color: #FFA500; /* Complementary color */
+        }
+        .headroom {
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+        .navbar-nav {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        .navbar-nav li {
+            display: inline;
+            margin-right: 15px;
+        }
+        .navbar-nav li a {
+            text-decoration: none;
+            padding: 10px 15px;
+            display: inline-block;
+        }
+        
+        .banner-text {
+            text-align: center;
+            font-weight: 100;
+            padding: 20px;
+            color: #3B5998;
+            font-size: 18px;
+            font-weight: 700;
+            letter-spacing: 4px;
+        }
+        
+        .highlight-box {
+            color: white;
+            font-weight: bold;
+            padding: 40px;
+            width: 400px;
+            height: auto;
+            margin: 40px auto;
+            background-color: #3B5998; /* Base color */
+            text-align: center;
+            border-radius: 10px;
+        }
+        .highlight-box h2 {
+            font-family: Helvetica, sans-serif;
+            font-size: 20px;
+        }
+        .section-features {
+            background-color: #fff;
+            padding: 60px 0;
+        }
+        .section-features h2 {
+            text-align: center;
+            margin-bottom: 50px;
+            color: #3B5998;
+        }
+        .section-features h3 {
+            text-align: center;
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        .section-features p {
+            text-align: center;
+        }
+        .section-testimonials {
+        background-color: #f8f9fa;
+        padding: 60px 0;
+    }
+
+    .section-testimonials h2 {
+        text-align: center;
+        margin-bottom: 50px;
+        color: #3B5998;
+    }
+
+    .testimonial {
+        position: relative;
+        max-width: 70%;
+        margin: 0 auto 50px;
+        padding: 20px;
+        border-radius: 20px;
+        background-color: #fff;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        animation: slideIn 0.5s ease;
+    }
+
+    .testimonial::after {
+        content: '';
+        position: absolute;
+        bottom: -20px;
+        left: 50%;
+        transform: translateX(-50%);
+        border-style: solid;
+        border-width: 20px 20px 0;
+        border-color: #fff transparent;
+        display: block;
+        width: 0;
+    }
+
+    .testimonial blockquote {
+        font-size: 20px;
+        color: #333;
+    }
+
+    .testimonial cite {
+        font-style: normal;
+        margin-top: 20px;
+        color: #777;
+    }
+    .image img {
+        display: block;
+        margin: 20px auto 0;
+        border-radius: 50%;
+        width: 80px; /* Adjust image size as needed */
+        height: 80px; /* Adjust image size as needed */
+    }
+
+    /* Animation */
+    @keyframes slideIn {
+        0% {
+            opacity: 0;
+            transform: translateY(50px);
+        }
+        100% {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+        .footer1, .footer2 {
+            padding: 20px 0;
+            background-color: #333;
+            color: #fff;
+        }
+        .footer1 h3, .footer2 h3 {
+            color: #fff;
+        }
+        .footer1 p, .footer2 p {
+            color: #ccc;
+        }
+        .footer1 a, .footer2 a {
+            color: #FFA500; /* Complementary color */
+        }
+        .follow-me-icons i {
+            font-size: 24px;
+        }
+    </style>
+    
+    
+</head>
+<body>
+    <div class="navbar navbar-inverse navbar-fixed-top headroom">
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="index.html">Aroma AG Aluminium</a>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav pull-right">
+                    <li><a href="index.html">Home</a></li>
+                    <li class="active"><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="services.html">Services</a></li>
+                </ul>
+            </div><!--/.nav-collapse -->
+        </div>
+    </div>
+
+    <br><br><br><br><br><br>
+
+    <nav class="banner-text">
+        Founded by Andiswa Lifa Makhumalo
+    </nav>
+    <p class="banner-text">LOCAL FABRICATORS</p>
+
+    <marquee>
+        <img src="assets/images/Aluminium1.jpg" style="height: 300px;">
+        <img src="assets/images/Aluminium2.jpg" style="height: 300px;">
+        <img src="assets/images/Aluminium3.jpg" style="height: 300px;">
+    </marquee>
+
+    <div class="highlight-box">
+        <h2>"THE AROMA AG ALUMINIUM EMBRACES RESPONSIBLE AND DIVERSIFIED USE OF ITS RESOURCES WHILE MAKING SURE THAT CUSTOMERS ARE HAPPY"</h2>
+    </div>
+
+    <section class="section-features">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <h3>Custom Fabrication</h3>
+                    <p>We provide custom fabrication services tailored to your specific needs.</p>
+                </div>
+                <div class="col-md-4">
+                    <h3>Installation</h3>
+                    <p>Our skilled team ensures proper installation of our products to meet your requirements.</p>
+                </div>
+                <div class="col-md-4">
+                    <h3>Maintenance</h3>
+                    <p>We offer maintenance services to keep your aluminium products in optimal condition.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-testimonials">
+        <div class="container">
+            <h2>What Our Clients Say</h2>
+            <div class="testimonial">
+                <blockquote>"The service provided by Aroma AG Aluminium was excellent. Highly recommended!"</blockquote>
+                <cite>- John Doe</cite>           
+            </div>
+            <div class="image">
+                <img src="assets/images/WhatsApp.jpg" alt="Client 1">
+            </div>
+            
+            <div class="testimonial">
+                <blockquote>"I'm extremely satisfied with the quality of work. Thank you for the great experience!"</blockquote>
+                <cite>- Jane Smith</cite>
+                
+            </div>
+            <div class="image">
+                <img src="assets/images/WhatsApp.jpg" alt="Client 2">
+            </div>
+        </div>
+    </section>
+    <footer id="footer" class="top-space">
+        <div class="footer1">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 widget">
+                        <h3 class="widget-title">Contact</h3>
+                        <div class="widget-body">
+                            <p>+27 67 079 0166 / +27 82 219 1753<br>
+                                <a href="mailto:ayandamtshengu111@gmail.com">ayandamtshengu111@gmail.com</a><br>
+                                <br>
+                                106 Keukboom Street<br>
+                                Algoa Park<br>
+                                Port Elizabeth<br>
+                                6001
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 widget">
+                        <h3 class="widget-title">Follow Us</h3>
+                        <div class="widget-body">
+                            <p class="follow-me-icons">
+                                <a href="https://www.facebook.com/aromaaluminium1"><i class="fa fa-facebook"></i></a>
+                            </p>
+                            <p><a href="https://wa.me/+27659784508"><img src="assets/images/WhatsApp.jpg" style="height: 30px; width: 30px;"></a></p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 widget">
+                        <h3 class="widget-title">More</h3>
+                        <div class="widget-body">
+                            <p>Our services include the installation of our products.</p>
+                        </div>
+                    </div>
+                </div> <!-- /row of widgets -->
+            </div>
+        </div>
+
+        <div class="footer2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 widget">
+                        <div class="widget-body">
+                            <p class="simplenav">
+                                <a href="index.html">Home</a> |
+                                <a href="about.html">About</a> |
+                                <a href="contact.html">Contact</a> |
+                                <a href="services.html">Services</a>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 widget">
+                        <div class="widget-body">
+                            <p class="text-right">
+                                &copy; 2022 Aroma AG Aluminium
+                            </p>
+                        </div>
+                    </div>
+                </div> <!-- /row of widgets -->
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
