@@ -7,25 +7,30 @@
     <meta name="author" content="Sergey Pozhilov (GetTemplate.com)">
 
     <title>Aroma</title>
+    <link rel="stylesheet" href="assets/css/bootstrap-theme.css" media="screen" >
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" media="screen" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,700">
     <style>
         body {
-            font-family: 'Open Sans', sans-serif;
+            
             background-color: #f8f9fa;
             color: #333;
         }
         .navbar {
-            background-color: #3B5998; /* Base color */
+            background-color: black; /* Base color */
             border-radius: 0;
             margin-bottom: 20px;
+            
         }
         .navbar-header a{
             text-decoration: none;
-            color: black !important;
+            color: white !important;
+            
+            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
         }
         .navbar a {
             color: #fff;
-            text-transform: uppercase;
-            font-weight: bold;
+            
         }
         .navbar a:hover {
             color: #FFA500; /* Complementary color */
@@ -42,11 +47,13 @@
         .navbar-nav li {
             display: inline;
             margin-right: 15px;
+           
         }
         .navbar-nav li a {
             text-decoration: none;
             padding: 10px 15px;
             display: inline-block;
+            
         }
         
         .banner-text {
@@ -155,23 +162,50 @@
             transform: translateY(0);
         }
     }
-        .footer1, .footer2 {
-            padding: 20px 0;
-            background-color: #333;
-            color: #fff;
-        }
-        .footer1 h3, .footer2 h3 {
-            color: #fff;
-        }
-        .footer1 p, .footer2 p {
-            color: #ccc;
-        }
-        .footer1 a, .footer2 a {
-            color: #FFA500; /* Complementary color */
-        }
-        .follow-me-icons i {
-            font-size: 24px;
-        }
+    footer {
+        background-color: #333; /* Footer background color */
+        color: #fff; /* Text color */
+        padding: 0px 0; /* Padding top and bottom */
+    }
+
+    .footer1{
+    background: #232323;
+    padding: 30px 0 0 0;
+    font-size: 12px;
+    color: #999;
+    }
+     .footer2 {
+        background: #191919;
+    padding: 15px 0;
+    color: #777;
+    font-size: 12px;
+    }
+
+    .footer1 h3, .footer2 h3 {
+        color: #fff; /* Widget title color */
+    }
+
+    .footer1 p, .footer2 p {
+        color: #ccc; /* Text color for widget body */
+    }
+
+    .footer1 a, .footer2 a {
+        color: #FFA500; /* Link color */
+    }
+
+    .footer1 a:hover, .footer2 a:hover {
+        color: #fff; /* Hover color for links */
+    }
+
+    .follow-me-icons i {
+        font-size: 24px; /* Size of social media icons */
+        margin-right: 10px; /* Spacing between icons */
+    }
+
+    .copyright {
+        color: #ccc; /* Color of copyright text */
+    }
+       
     </style>
     
     
@@ -185,7 +219,7 @@
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav pull-right">
                     <li><a href="index.html">Home</a></li>
-                    <li class="active"><a href="about.html">About</a></li>
+                    <li><a href="about.html">About</a></li>
                     <li><a href="contact.html">Contact</a></li>
                     <li><a href="services.html">Services</a></li>
                 </ul>
@@ -252,67 +286,74 @@
         </div>
     </section>
     <footer id="footer" class="top-space">
-        <div class="footer1">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-3 widget">
-                        <h3 class="widget-title">Contact</h3>
-                        <div class="widget-body">
-                            <p>+27 67 079 0166 / +27 82 219 1753<br>
-                                <a href="mailto:ayandamtshengu111@gmail.com">ayandamtshengu111@gmail.com</a><br>
-                                <br>
-                                106 Keukboom Street<br>
-                                Algoa Park<br>
-                                Port Elizabeth<br>
-                                6001
-                            </p>
-                        </div>
-                    </div>
 
-                    <div class="col-md-3 widget">
-                        <h3 class="widget-title">Follow Us</h3>
-                        <div class="widget-body">
-                            <p class="follow-me-icons">
-                                <a href="https://www.facebook.com/aromaaluminium1"><i class="fa fa-facebook"></i></a>
-                            </p>
-                            <p><a href="https://wa.me/+27659784508"><img src="assets/images/WhatsApp.jpg" style="height: 30px; width: 30px;"></a></p>
-                        </div>
-                    </div>
+		<div class="footer1">
+			<div class="container">
+				<div class="row">
 
-                    <div class="col-md-6 widget">
-                        <h3 class="widget-title">More</h3>
-                        <div class="widget-body">
-                            <p>Our services include the installation of our products.</p>
-                        </div>
-                    </div>
-                </div> <!-- /row of widgets -->
-            </div>
-        </div>
+					<div class="col-md-3 widget">
+						<h3 class="widget-title">Contact</h3>
+						<div class="widget-body">
+							<p>+27 67 079 0166/+27 82 219 1753<br>
+								<a href="mailto:#"> ayandamtshengu111@gmail.com</a><br>
+								<br>
+								106 Keukboom Street<br>
+  Algoa Park<br>
+  Port Elizabeth<br>
+    6001</p>
+							</p>
+						</div>
+					</div>
 
-        <div class="footer2">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6 widget">
-                        <div class="widget-body">
-                            <p class="simplenav">
-                                <a href="index.html">Home</a> |
-                                <a href="about.html">About</a> |
-                                <a href="contact.html">Contact</a> |
-                                <a href="services.html">Services</a>
-                            </p>
-                        </div>
-                    </div>
+					<div class="col-md-3 widget">
+						<h3 class="widget-title">Follow Us</h3>
+						<div class="widget-body">
+							<p class="follow-me-icons">
 
-                    <div class="col-md-6 widget">
-                        <div class="widget-body">
-                            <p class="text-right">
-                                &copy; 2022 Aroma AG Aluminium
-                            </p>
-                        </div>
-                    </div>
-                </div> <!-- /row of widgets -->
-            </div>
-        </div>
-    </footer>
+								<a href="https://www.facebook.com\aromaaluminium1"><i class="fa fa-facebook fa-2"></i></a>
+							</p>
+							<p><a href="https://wa.me/+27659784508"><img src="assets/images/WhatsApp.jpg" style="height: 30px; width: 30px;"></a></p>
+						</div>
+					</div>
+
+					<div class="col-md-6 widget">
+						<h3 class="widget-title">More</h3>
+						<div class="widget-body">
+							<p>Our services include the installation of our products.</p>
+							<p></p>
+						</div>
+					</div>
+
+				</div> <!-- /row of widgets -->
+			</div>
+		</div>
+
+		<div class="footer2">
+			<div class="container">
+				<div class="row">
+
+					<div class="col-md-6 widget">
+						<div class="widget-body">
+							<p class="simplenav">
+								<a href="index.html">Home</a> |
+								<a href="about.html">About</a> |
+								<a href="contact.html">Contact</a> |
+								<a href="services.html">Services</a>
+							</p>
+						</div>
+					</div>
+
+					<div class="col-md-6 widget">
+						<div class="widget-body">
+							<p class="text-right">
+								Copyright &copy; 2022 Aroma AG Aluminium
+							</p>
+						</div>
+					</div>
+
+				</div> <!-- /row of widgets -->
+			</div>
+		</div>
+	</footer>
 </body>
 </html>
